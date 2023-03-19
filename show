@@ -1,0 +1,22 @@
+<link rel='stylesheet' href='https://liad07.github.io/find/style.css'>
+<div class="contact-info">
+    <h2>Contact Information</h2>
+    <p><strong>Full Name:</strong> <span id="fullname"></span></p>
+    <p><strong>Email:</strong> <a id="email" href=""></a></p>
+    <p><strong>Phone:</strong> <a id="phone" href=""></a></p>
+    <button onclick="window.location.href='https://wa.me/972' + document.getElementById('phone').href.split(':')[1].replace(' ','')">Message on WhatsApp</button>
+</div>
+<script>
+const params = new URLSearchParams(window.location.search);
+
+const fullName = params.get('fullname');
+const email = params.get('email');
+const phone = params.get('phone');
+
+document.getElementById('fullname').textContent = fullName;
+document.getElementById('email').href = 'mailto:' + email;
+document.getElementById('email').textContent = email;
+document.getElementById('phone').href = 'tel:' + phone;
+document.getElementById('phone').textContent = phone;
+//http://localhost:63342/find/2.html?fullname=liad%20kadosh&phone=0509507172&email=liad07@gmail.com
+</script>
