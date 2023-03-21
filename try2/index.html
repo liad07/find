@@ -15,26 +15,27 @@
         }  </style>
     </noscript>
 </head>
-<body style="background-color:black;">
+<body>
 <div id="setismobile">
-<section id="דף-הבית" style="position: relative; overflow: hidden; align-items: center;">
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0;">
-        <div style="height: 100%; display: flex; align-items: center;">
-            <div style="width: 100%;">
-                <div style="position: relative;">
-                    <div style="width: 100%; padding-bottom: 56.25%; position: relative;">
-                        <video src="assests/video/findmedia.mp4"
-                               playsinline="" preload="metadata" autoplay="" muted="" loop=""
-                               style="display:block; object-fit: cover; width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></video>
+    <section id="דף-הבית" style="position: relative; overflow: hidden; align-items: center;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0;">
+            <div style="height: 100%; display: flex; align-items: center;">
+                <div style="width: 100%;">
+                    <div style="position: relative;">
+                        <div style="width: 100%; padding-bottom: 21%; position: relative;">
+                            <video src="assests/video/findmedia.mp4"
+                                   playsinline="" preload="metadata" autoplay="" muted="" loop=""
+                                   style="display:block; object-fit: cover; width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></video>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div style="position: relative; grid-area: 1 / 2 / 2 / 3;"></div>
-</section>
+        <div style="position: relative; grid-area: 1 / 2 / 2 / 3;"></div>
+    </section>
 
 </div>
+
 <script>
     // Set the maximum width for mobile devices (example: 768 pixels)
     const MOBILE_WIDTH_MAX = 768;
@@ -43,27 +44,11 @@
 
     if (isMobile) {
         // Do nothing
-        document.getElementById("dis1").style="display:none"
-        document.getElementById("dis2").style="display:none"
+        document.getElementById("dis1").style = "display:none"
+        document.getElementById("dis2").style = "display:none"
     } else {
         console.log("mobnot")
-        element.innerHTML = `
-        <section id="דף-הבית" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;position:relative;align-items:center;">
-            <div id="JLhqflx0yS0vEjgS" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
-                <div id="tqNB6SymIIHBu8aw" style="z-index:0;">
-                    <div id="R0Xe0xwY53sDNL7x" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                        <div id="SNeWn6QM2sDPdt9D" style="width:100%;opacity:1.0;height:100%;">
-                            <div id="Ra57AyeQO8Hfgjmp" style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;">
-                                <div id="XO4IHnsln83lPjRK" style="transform:rotate(0deg);top:-16.70977123%;left:0%;width:100%;position:absolute;height:132.82167002%;opacity:1.0;">
-                                    <video src="assests/video/findmedia.mp4"
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="m9lfyVpO6oFPMc6e" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;"></div>
-        </section>
-    `;
+        element.innerHTML = `<section id="דף-הבית" style="padding-bottom: 300px;z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;position:relative;align-items:center;"><div id="W1AmTZpHYntGfuJx" style="display:grid;min-height:100%;position:absolute;min-width:100%;"><div id="lyVvXQqQLu8Pujaq" style="z-index:0;"><div id="wHFvzsFM55yIZtHh" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;"><div id="ZJLp9vbkRKu8l9P4" style="width:100%;opacity:1.0;height:100%;"><div id="OWJje4TuOdyFatt4" style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;"><div id="cMnLRz8uBR8Jk6Qa" style="transform:rotate(0deg);top:-16.70977123%;left:0%;width:100%;position:absolute;height:132.82167002%;opacity:1.0;"><video src="https://video-private-assets.canva.com/VAFdv4zR2eE/v/eb631f7367.mp4?exp=1679458800000&amp;cf-ck=_xmpSc5GkL0UsJtuGAIhU1CG4T1CaCgDXRs0y4WDOiE&amp;cf-sig=Dc8V1WpPI00FjYO_wX3a8T5nf6Xh2Jo8BWUFFVN8Tjc&amp;cf-sig-kid=CO7cCjZ_YiI=&amp;sig=QcnjiZS0qr3OtHGV8yScmvjT1iLseShhBV82m-WGQpA&amp;sig-kid=GzFgFdhXD-Q=" playsinline="" preload="metadata" autoplay="" muted="" loop="" style="display:block;object-fit:cover;width:100%;height:100%;"></video></div></div></div></div></div></div><div id="BhcxuwCqCe8Ujd86" style="display:grid;position:relative;"></div></section> `;
     }
 
 
