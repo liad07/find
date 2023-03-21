@@ -2,7 +2,9 @@
     --ffsd: 0px;
     --1vw: calc((100vw - var(--sbw, 0px)) / 100);
 }
-
+p{
+    color:white !important;
+}
 @media (prefers-reduced-motion: reduce) {
     .animated {
         animation: none !important;
