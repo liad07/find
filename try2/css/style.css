@@ -3,7 +3,7 @@
     --1vw: calc((100vw - var(--sbw, 0px)) / 100);
 }
 p{
-    color:white !important;
+    color:white;
 }
 @media (prefers-reduced-motion: reduce) {
     .animated {
