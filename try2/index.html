@@ -15,6 +15,31 @@
         }  </style>
     </noscript>
 </head>
+<style>
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        width:300px;
+        height: 350px;
+        color: black;
+    }
+    .btn-price {
+        fill: #0f1819;
+        background-color:  #0f1819;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 0;
+    }
+
+</style>
 <body style="background-color: black">
 
 <div id="setismobile">
@@ -42,6 +67,7 @@
     const MOBILE_WIDTH_MAX = 768;
     const isMobile = window.innerWidth < MOBILE_WIDTH_MAX;
     const element = document.getElementById("setismobile");
+    const element2 = document.getElementById("divpackege");
 
     if (isMobile) {
         // Do nothing
@@ -50,6 +76,70 @@
     } else {
         console.log("mobnot")
         element.innerHTML = `<section id="דף-הבית" style="padding-bottom: 300px;z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;position:relative;align-items:center;"><div id="W1AmTZpHYntGfuJx" style="display:grid;min-height:100%;position:absolute;min-width:100%;"><div id="lyVvXQqQLu8Pujaq" style="z-index:0;"><div id="wHFvzsFM55yIZtHh" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;"><div id="ZJLp9vbkRKu8l9P4" style="width:100%;opacity:1.0;height:100%;"><div id="OWJje4TuOdyFatt4" style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;"><div id="cMnLRz8uBR8Jk6Qa" style="transform:rotate(0deg);top:-16.70977123%;left:0%;width:100%;position:absolute;height:132.82167002%;opacity:1.0;"><video src="assests/video/findmedia.mp4" playsinline="" preload="metadata" autoplay="" muted="" loop="" style="display:block;object-fit:cover;width:100%;height:100%;"></video></div></div></div></div></div></div><div id="BhcxuwCqCe8Ujd86" style="display:grid;position:relative;"></div></section> `;
+        element2.innerHTML = `
+         <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+
+    <div class="card">
+        <span><img class="icon" src="assests/img/platinuimicon.png" width="50px"></span><br>
+        <img src="assests/img/platinuim.png" alt="Nayoki system" width="482px">
+        <div class="card-content">
+            <b>מערכת ניוקי</b>
+            <p>חיבור למערכת -  אינסטגרם + טיקטוק</p>
+            <p>משך זמן: שנה</p>
+            <b>תוכן לעסק:</b>
+            <p>עשר תמונות + עשרה סרטונים ערוכים</p>
+            <b>בניית אתר ועיצוב</b>
+            <p>בניית אתר ועיצוב באופן אישי</p>
+            <b>כרטיס דיגיטלי</b>
+            <p>עיצוב כרטיס דיגיטלי לעסק</p>
+            <a href="#nayoki" class="btn-price">₪8,000</a>
+        </div>
+    </div>
+    </div>
+            <div class="col-md-4 col-sm-12">
+
+            <div class="card">
+        <span> <img class="icon" src="assests/img/goldicon.png" width="50px"></span>
+
+        <img src="assests/img/gold.png" alt="Nayoki system" width="482px">
+        <div class="card-content">
+            <b>מערכת ניוקי</b>
+            <p>חיבור למערכת -  אינסטגרם + טיקטוק</p>
+            <p>משך זמן: שלושה חודשים</p>
+            <b>תוכן לעסק:</b>
+                <p>חמש תמונות + חמישה סרטונים ערוכים</p>
+            <b>בניית אתר ועיצוב</b>
+                <p>בניית אתר ועיצוב באופן אישי
+
+                </p>
+            <a href="#nayoki" class="btn-price">₪3,800</a>
+        </div>
+    </div>
+    </div>
+            <div class="col-md-4 col-sm-12">
+
+            <div class="card">
+        <span> <img class="icon" src="assests/img/silvericon.png" width="50px"></span>
+
+        <img src="assests/img/silver.png" alt="Nayoki system" width="482px">
+        <div class="card-content">
+            <b>מערכת ניוקי</b>
+            <p>חיבור למערכת - אינסטגרם בלבד</p>
+            <p>משך זמן: חודש</p>
+            <b>תוכן לעסק:</b>
+
+                <p>שני פוסטים לאינסטגרם</p>
+
+            <a href="#nayoki" class="btn-price">₪899</a>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+        `
+
     }
 
 
@@ -828,454 +918,126 @@
     </div>
 </section>
 <section id="qC80vrKhuubNGK9K"
-         style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;margin-top:-1px;position:relative;align-items:center;">
-    <div id="uBSXBJ0FSGmV6hA6"
-         style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
-        <div id="qlqzCtfr3ToDTPm3" style="z-index:0;">
-            <div id="bhtB9r7GmIrrktbH" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                <div id="rPFGn7oOJnXoNjVR" style="width:100%;opacity:1.0;height:100%;">
-                    <div id="kfHyDMMhmL8Wkyk0"
-                         style="background-color:#000000;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;"></div>
+         style="">
+
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            width:350px;
+            height: 500px;
+            color: black;
+            margin-right: 20px;
+        }
+
+        .btn-price {
+            fill: #0f1819;
+            background-color:  #0f1819;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 0;
+        }
+        p{
+            font-size: 20px;
+        }
+        b{
+            font-size: 20px;
+        }
+        /* Media queries */
+        @media only screen and (max-width: 768px) {
+            /* Adjust card width to fit 3 items per row */
+            .card {
+                width: 33%;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            /* Adjust card width and image size for smaller screens */
+            .card {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            img {
+                width: 100%;
+            }
+        }
+
+        .icon{
+            margin-top: 3px;
+            background-color:black;
+            width: 50px;
+            height: 30px;
+        }
+    </style>
+
+    <center>
+    <div id="divpackege">
+        <div class="container">
+
+            <div class="card">
+                <span><img class="icon" src="assests/img/platinuimicon.png" width="50px"></span><br>
+                <img src="assests/img/platinuim.png" alt="Nayoki system" width="482px">
+                <div class="card-content">
+                    <b>מערכת ניוקי</b>
+                    <p>חיבור למערכת -  אינסטגרם + טיקטוק</p>
+                    <p>משך זמן: שנה</p>
+                    <b>תוכן לעסק:</b>
+                    <p>עשר תמונות + עשרה סרטונים ערוכים</p>
+                    <b>בניית אתר ועיצוב</b>
+                    <p>בניית אתר ועיצוב באופן אישי</p>
+                    <b>כרטיס דיגיטלי</b>
+                    <p>עיצוב כרטיס דיגיטלי לעסק</p>
+                    <a href="#nayoki" class="btn-price">₪8,000</a>
+                </div>
+            </div>
+            <div class="card">
+                <span> <img class="icon" src="assests/img/goldicon.png" width="50px"></span>
+
+                <img src="assests/img/gold.png" alt="Nayoki system" width="482px">
+                <div class="card-content">
+                    <b>מערכת ניוקי</b>
+                    <p>חיבור למערכת -  אינסטגרם + טיקטוק</p>
+                    <p>משך זמן: שלושה חודשים</p>
+                    <b>תוכן לעסק:</b>
+                    <p>חמש תמונות + חמישה סרטונים ערוכים</p>
+                    <b>בניית אתר ועיצוב</b>
+                    <p>בניית אתר ועיצוב באופן אישי
+
+                    </p>
+                    <a href="#nayoki" class="btn-price">₪3,800</a>
+                </div>
+            </div>
+            <div class="card">
+                <span> <img class="icon" src="assests/img/silvericon.png" width="50px"></span>
+
+                <img src="assests/img/silver.png" alt="Nayoki system" width="482px">
+                <div class="card-content">
+                    <b>מערכת ניוקי</b>
+                    <p>חיבור למערכת - אינסטגרם בלבד</p>
+                    <p>משך זמן: חודש</p>
+                    <b>תוכן לעסק:</b>
+
+                    <p>שני פוסטים לאינסטגרם</p>
+
+                    <a href="#nayoki" class="btn-price">₪899</a>
                 </div>
             </div>
         </div>
     </div>
-    <div id="C06gm31vZNn5petS" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-        <div id="thkAtRqpbVqRGeJA" style="z-index:15;width: 100px;">
-            <div id="P3seXfvujNPAOu6t" style="padding-top:62.28842248%;transform:rotate(0deg);">
-                <div id="g6tgFM8B1fp9MJkH" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-                    <div id="Tu8hxsrBahO5ExLn" style="width:100%;opacity:1.0;height:100%;">
-                        <div id="cO75AHodd51ZkEFy"
-                             style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-                            <div id="JsQHVz2grK4XlVbO"
-                                 style="transform: rotate(0deg); top: 0%; left: 0%; width: 100%; position: absolute; height: 100%; opacity: 1;">
-                                <img src="assests/img/platinuimicon.png"
-                                     alt="Diamond Crystal Gemstone " loading="lazy"
-                                     style="display:block;object-fit:cover;width:100%;height:100%;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="MNp8FgR3q2F1cGcO">
-            <div id="YeZ9K3N29vOd7wPe" style="display:grid;position:relative;">
-                <div id="QZ7oYM7OGdJxReiU" style="z-index:1;">
-                    <div id="kP79GlmI1vbFRIUN"
-                         style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                        <div id="QtP4f3Q3Ibmbqs5n" style="width:100%;opacity:1.0;height:100%;">
-                            <div id="L2fXI9DSBEOXfPrk"
-                                 style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;"></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="dcXL2Rhrk2U2Jd0y" style="z-index:42;">
-                    <div id="SAOgdxzLbCWlOmI0"
-                         style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                        <div id="txOtxKmfsIoW5ghZ" style="transform:scale(1.5);position:absolute;"><img
-                                src="assests/img/platinuim.png"
-                                alt="חבילת פלאטיניום" loading="lazy"
-                                style="display:block;object-fit:cover;width:100%;height:100%;"></div>
-                    </div>
-                </div>
-                <div id="DpFuvb8G3l6bBqON" style="display:grid;position:relative;">
-                    <div id="KoBNctuZSJwRMdAt" style="z-index:18;">
-                        <div id="d65Ue4IghFcyYO5W"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="Ee87saV7MTNln3gt"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="zryHVzHGQlA8BmKk"
-                                   style="text-transform:uppercase;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.4em;direction:rtl;text-align:center;">
-                                        <span id="M8w8C8ikZSN4zQmM"
-                                              style="color:#000000;font-weight:700;">מערכת ניוקי</span><br></p></div>
-                        </div>
-                    </div>
-                    <div id="ySBNDB7ghVyDeQmG" style="z-index:19;">
-                        <div id="r5JR65rXOzgyyzHK"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="rFwd75J2ya1IVgxg"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="J695SbMb8zNI1vZM"
-                                   style="color:#000000;font-family:YAD7QhG2T6o-0;line-height:1.3em;direction:rtl;text-align:center;">
-                                    <span id="YHOEyTzQsSflMGUq"
-                                          style="color:#000000;">חיבור למערכת - אינסטגרם + טיקטוק</span><br>
-                                </p>
-                                <p id="s7rSAjYVR1iqVzEG"
-                                   style="text-transform:none;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.3em;direction:rtl;margin-right:0em;text-align:center;">
-                                    <span id="iMvkNPtgKu0iLPkP" style="color:#000000;">משך זמן: שנה</span><br></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="zIyNyXx2tcTZjfvp" style="display:grid;position:relative;">
-                    <div id="cIE7BtNdbnFpc1Hh" style="z-index:27;">
-                        <div id="K11PXsgGgk4npxm1"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="eV31KIALojgzz3em"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="DtnVkOra2hzXiB2N"
-                                   style="text-transform:uppercase;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.4em;direction:rtl;text-align:center;">
-                                        <span id="BDdumBFPTfvbxaOJ"
-                                              style="color:#000000;font-weight:700;">תוכן לעסק</span><br></p></div>
-                        </div>
-                    </div>
-                    <div id="KLPFy8O9Atirg2rv" style="z-index:28;">
-                        <div id="d22CxhOQ0NpvGRhp"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="AIdKQCb7U6uP5NA9"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="FGPPajfuxaC2DLLF"
-                                   style="text-transform:none;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.3em;direction:rtl;margin-right:0em;text-align:center;">
-                                    <span id="W4KhaZCgUWtXg3Td"
-                                          style="color:#000000;">עשר תמונות + עשרה סרטונים ערוכים</span><br>
-                                </p></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="o9W7aSYG1mn77uj0" style="display:grid;position:relative;">
-                    <div id="JaWkoHx0zOugkNV5" style="z-index:36;">
-                        <div id="MMvpUGL0Po4necqQ"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="FhqayANYXMFRrLKj"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="CLL1r9FUAiGI1NEu"
-                                   style="text-transform:uppercase;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.4em;direction:rtl;text-align:center;">
-                                    <span id="hETCC2jedzejWcHr"
-                                          style="color:#000000;font-weight:700;">בניית אתר ועיצוב</span><br>
-                                </p></div>
-                        </div>
-                    </div>
-                    <div id="DQ3pu7xDYDIdQlMk" style="z-index:37;">
-                        <div id="UysmL2fgper6BbaW"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="xz6E23ha2UUaTORp"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="O0Qi2QLXFrOhjpgA"
-                                   style="text-transform:none;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.3em;direction:rtl;margin-right:0em;text-align:center;">
-                                        <span id="L7uvTLr4M99ulxGa"
-                                              style="color:#000000;">בניית אתר ועיצוב באופן אישי</span><br></p></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="yQPwJZLxLv1WfxM1" style="display:grid;position:relative;grid-area:11 / 7 / 12 / 14;">
-                    <div id="MKgU8gQkfiOCg19N" style="z-index:44;">
-                        <div id="dni33WidHhLlgqwV"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="fvwuiWNbavdv1VjF"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="LrGYbrI3RgwfexA3"
-                                   style="text-transform:uppercase;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.4em;direction:rtl;text-align:center;">
-                                        <span id="zFeyCCQmJRcHhXUL"
-                                              style="color:#000000;font-weight:700;">כרטיס דיגיטלי</span><br></p></div>
-                        </div>
-                    </div>
-                    <div id="x0cDuLdz0m10sNJy" style="z-index:45;">
-                        <div id="NhzZrcR4wcbw1RqU"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="Jd3n7YEu6OrnQ93S"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="RbEskdLQohy3ZjFs"
-                                   style="text-transform:none;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.3em;direction:rtl;margin-right:0em;text-align:center;">
-                                        <span id="rtSfbDbyI91EQb7T"
-                                              style="color:#000000;">עיצוב כרטיס דיגיטלי לעסק</span><br></p></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="hU6R64Zl3Dyz7N4V" style="display:grid;position:relative;grid-area:13 / 8 / 14 / 9;">
-                    <div id="Nfdg41EjttAEMrfl" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                        <div id="yWhqEPKaWuUKKFvP" style="z-index:5;">
-                            <div id="hZldUC1OTIqFGcz9"
-                                 style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                <svg id="lDzIRh7stwsZAXvw" viewBox="0 0 208.185 51.8217" preserveAspectRatio="none"
-                                     style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-                                    <g id="bdN09rJbe91083W7" style="transform:scale(1, 1);">
-                                        <path id="FZbgagjdWF11rNtI"
-                                              d="M208.18496963422862,0.0 L208.18496963422862,1.0 L208.18496963422862,50.82169796619605 L208.18496963422862,51.82169796619605 L207.18496963422862,51.82169796619605 L1.0,51.82169796619605 L0.0,51.82169796619605 L0.0,50.82169796619605 L0.0,1.0 L0.0,0.0 L1.0,0.0 L207.18496963422862,0.0 L208.18496963422862,0.0"
-                                              style="fill:#0f1819;opacity:1.0;"></path>
-                                    </g>
-                                </svg>
-                            </div>
-                        </div>
-                        <div id="ZXgnjPX3nUkzVvAi" style="z-index:6;">
-                            <div id="dTy4gsdReTXlcqSW"
-                                 style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                <div id="xkD2VNqzlu5y71lF"
-                                     style="flex-direction:column;display:flex;width:100%;justify-content:flex-end;opacity:1.0;height:100%;">
-                                    <p id="arawqJpNkbzgc09w"
-                                       style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.4em;direction:ltr;text-align:center;"><a style="color:#ffffff;" id="bojsiy2Ht0UXvrvh" href="?packege=platinuim#contantform" class="btn-price">₪8​,000</a>
-                                        <br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="ZNt9hjktrlQ1bDcU" style="z-index:14;">
-            <div id="vsTfmJDsvqWiLsTk" style="padding-top:62.28842248%;transform:rotate(0deg);">
-                <div id="INKmliHpY7l4Gyz6" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-                    <div id="VDR9M4PkCzCr1CDv" style="width:100%;opacity:1.0;height:100%;">
-                        <div id="KSaRPpPTMiAtyubS"
-                             style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-                            <div id="yGwxnAxkiWQ8MrNe"
-                                 style="transform: rotate(0deg); top: 0%; left: 0%; width: 100%; position: absolute; height: 100%; opacity: 1;">
-                                <img src="assests/img/goldicon.png"
-                                     alt="gold Crystal Gemstone " loading="lazy"
-                                     style="display:block;object-fit:cover;width:100%;height:100%;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="w7voBpRtPqcelkag">
-            <div id="huEC42UGRVPGdNm0" style="display:grid;position:relative;">
-                <div id="emmPU2b9HhhJnU5k" style="z-index:2;">
-                    <div id="yZ6ciKVdeMdLqm6f"
-                         style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                        <div id="M4Cgf8GrADbQ4WLe" style="width:100%;opacity:1.0;height:100%;">
-                            <div id="AMfIT3tstiSISw8H"
-                                 style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;"></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="N5wB8NJEwYeXl8jq" style="z-index:41;">
-                    <div id="bAq0r3NaZh7hTAqi"
-                         style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                        <div id="mOfJLtEyRfg3LxE1" style="transform:scale(1.5);position:absolute;"><img
-                                src="assests/img/gold.png"
-                                alt="חבילת גולד" loading="lazy"
-                                style="display:block;object-fit:cover;width:100%;height:100%;"></div>
-                    </div>
-                </div>
-                <div id="EYTcVa6Dx2YVBGyA" style="display:grid;position:relative;grid-area:5 / 3 / 6 / 9;">
-                    <div id="M2BjwJyas959ZCaf" style="z-index:21;">
-                        <div id="aAnnXYCygb5XFWm0"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="kE2qa4N7t6KcQZ6s"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="ay6fzRSUwiWTI5xi"
-                                   style="text-transform:uppercase;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.4em;direction:rtl;text-align:center;">
-                                        <span id="FT5x8tfORrqpJmwz"
-                                              style="color:#000000;font-weight:700;">מערכת ניוקי</span><br></p></div>
-                        </div>
-                    </div>
-                    <div id="o4xHERtBQ25VZ9JS" style="z-index:22;">
-                        <div id="vjIsCOQPyT6wKGNy"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="IcVp9RgN6uutGMd6"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="OduAvOqSQYGEytoZ"
-                                   style="color:#000000;font-family:YAD7QhG2T6o-0;line-height:1.3em;direction:rtl;text-align:center;">
-                                    <span id="hpX1gb5Hdp8wah5g"
-                                          style="color:#000000;">חיבור למערכת - אינסטגרם + טיקטוק</span><br>
-                                </p>
-                                <p id="oHdeuGI2cAIpq1NX"
-                                   style="text-transform:none;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.3em;direction:rtl;margin-right:0em;text-align:center;">
-                                        <span id="JvghkXhzTVqhuCCu"
-                                              style="color:#000000;">משך זמן: שלושה חודשים</span><br></p></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="hR1LEXKxRyADb6HD" style="display:grid;position:relative;grid-area:7 / 4 / 8 / 10;">
-                    <div id="Ie9c4GRxJsoBd8Uc" style="z-index:30;">
-                        <div id="mNumjAz8ZV3poi82"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="KNFOhkBkc2tU8VpK"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="JMAL5iLEnFazsvpB"
-                                   style="text-transform:uppercase;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.4em;direction:rtl;text-align:center;">
-                                        <span id="DltcPEqt5SpdwLQr"
-                                              style="color:#000000;font-weight:700;">תוכן לעסק</span><br></p></div>
-                        </div>
-                    </div>
-                    <div id="aGSsAAoxPvBC2d5p" style="z-index:31;">
-                        <div id="PsiDnNQWGxOUdSFp"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="qwMepwUsF97IacPw"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="f8xk7okZbJePwbf0"
-                                   style="text-transform:none;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.3em;direction:rtl;margin-right:0em;text-align:center;">
-                                    <span id="rU7cxiJimt7gUxiA"
-                                          style="color:#000000;">חמש תמונות + חמישה סרטונים ערוכים</span><br>
-                                </p></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="bA409dDWymThKMva" style="display:grid;position:relative;grid-area:9 / 5 / 10 / 11;">
-                    <div id="mbxCvqMiBTZkRtQR" style="z-index:39;">
-                        <div id="clU0WMrw6gkByHu9"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="TLV8KCCIBxEK0DNm"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="Niqzm5jniDd6A8yy"
-                                   style="text-transform:uppercase;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.4em;direction:rtl;text-align:center;">
-                                    <span id="l3ZTKedJ0wkC6o9t"
-                                          style="color:#000000;font-weight:700;">בניית אתר ועיצוב</span><br>
-                                </p></div>
-                        </div>
-                    </div>
-                    <div id="GUIctTZZIQ6IZIZc" style="z-index:40;">
-                        <div id="MNVkWOpcHPT4P7y5"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="d1Ck6s6jsVLhOmV6"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="i9Iqoh3XfSvobeBR"
-                                   style="text-transform:none;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.3em;direction:rtl;margin-right:0em;text-align:center;">
-                                        <span id="iE7tuw4bRaTqX7Se"
-                                              style="color:#000000;">בניית אתר ועיצוב באופן אישי</span><br></p></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="o4oroXWUQN8eDdyj" style="display:grid;position:relative;grid-area:11 / 7 / 12 / 8;">
-                    <div id="gWYjY58uFicgejyg" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                        <div id="xy7g1hO5JS6smopv" style="z-index:8;">
-                            <div id="j1rteMQyrOrkLSTg"
-                                 style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                <svg id="aAylp4PogPzsXBig" viewBox="0 0 208.185 51.8217" preserveAspectRatio="none"
-                                     style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-                                    <g id="sAHIN7xXNBhy8bvO" style="transform:scale(1, 1);">
-                                        <path id="H7DR2RgJwRSAvoHs"
-                                              d="M208.18496963422862,0.0 L208.18496963422862,1.0 L208.18496963422862,50.82169796619605 L208.18496963422862,51.82169796619605 L207.18496963422862,51.82169796619605 L1.0,51.82169796619605 L0.0,51.82169796619605 L0.0,50.82169796619605 L0.0,1.0 L0.0,0.0 L1.0,0.0 L207.18496963422862,0.0 L208.18496963422862,0.0"
-                                              style="fill:#0f1819;opacity:1.0;"></path>
-                                    </g>
-                                </svg>
-                            </div>
-                        </div>
-                        <div id="irRGdUM8HQwnpxeU" style="z-index:9;">
-                            <div id="OoRhbDK7sLggL8yQ"
-                                 style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                <div id="cRw29d9orUsTRxKC"
-                                     style="flex-direction:column;display:flex;width:100%;justify-content:flex-end;opacity:1.0;height:100%;">
-                                    <p id="hGJCg7O7NRaKvSQ8"
-                                       style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.4em;direction:ltr;text-align:center;"><a style="color:#ffffff;" id="vKB4mJIBG8s2N8bm" href="?packege=gold#contantform" class="btn-price">₪3,​800</a>
-                                        <br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="NPoxeBXsQDlPDY9w" style="z-index:13;">
-            <div id="zSUK0U0zFnZI8YMk" style="padding-top:62.28842248%;transform:rotate(0deg);">
-                <div id="vJaRxnsvYuL5SQJK" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-                    <div id="beygvMj1GwBvWMyW" style="width:100%;opacity:1.0;height:100%;">
-                        <div id="jg9soRaH75prbAjT"
-                             style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-                            <div id="w2jclPnCoOwQS1ed"
-                                 style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                <img src="assests/img/silvericon.png"
-                                     alt="silver Crystal Gemstone " loading="lazy"
-                                     style="display:block;object-fit:cover;width:100%;height:100%;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="g6R5J51dHVndXi2L">
-            <div id="GTMv7nyHaxGDBHxr" style="display:grid;position:relative;">
-                <div id="ejBCRy4MgQLYF3Ck" style="z-index:3;">
-                    <div id="MN15qLvAm7JGWqso"
-                         style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                        <div id="jQ5kutNMWt3w8PwB" style="width:100%;opacity:1.0;height:100%;">
-                            <div id="BgSxUystpNaS1IgC"
-                                 style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;"></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="g4EazvySimhOR7oq" style="z-index:16;">
-                    <div id="NTzfs94wfaIGiNnt"
-                         style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                        <div id="gcMkuGs7bcVxnH0u" style="transform:scale(1.5);position:absolute;"><img
-                                src="assests/img/silver.png"
-                                alt="חבילת סילבר" loading="lazy"
-                                style="display:block;object-fit:cover;width:100%;height:100%;"></div>
-                    </div>
-                </div>
-                <div id="Gm5v3VqxU5EO9Qn5" style="display:grid;position:relative;grid-area:5 / 4 / 6 / 9;">
-                    <div id="eiYdcsNr805nCiB3" style="z-index:24;">
-                        <div id="V9r6pkvdJKCYLt80"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="koUt2e8MDICQ7JLC"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="fvX2QAu4OrzaRLNu"
-                                   style="text-transform:uppercase;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.4em;direction:rtl;text-align:center;">
-                                        <span id="yFZl6NGGcTgQ6FZc"
-                                              style="color:#000000;font-weight:700;">מערכת ניוקי</span><br></p></div>
-                        </div>
-                    </div>
-                    <div id="gckBGFaDFZSwrqjp" style="z-index:25;">
-                        <div id="K5jRHNbp5ide6UrJ"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="id2zxu9az2j9i9QD"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="QMWwwoHLsr14ibUE"
-                                   style="color:#000000;font-family:YAD7QhG2T6o-0;line-height:1.3em;direction:rtl;text-align:center;">
-                                        <span id="yuVg5zTnoqYgTrF1"
-                                              style="color:#000000;">חיבור למערכת - אינסטגרם בלבד</span><br></p>
-                                <p id="GMndOTjlyztCBDah"
-                                   style="text-transform:none;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.3em;direction:rtl;margin-right:0em;text-align:center;">
-                                    <span id="ZxUYTwzURRFOdEMr" style="color:#000000;">משך זמן: חודש</span><br></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="ZoKEJIyHKSQm25DO" style="display:grid;position:relative;grid-area:7 / 5 / 8 / 10;">
-                    <div id="jSV7jBo25keJmKFB" style="z-index:33;">
-                        <div id="QQjUp8ZJZRkuKXSb"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="AMk16i6sUr8c5JeW"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="DJw1MmEzdt7Rgl94"
-                                   style="text-transform:uppercase;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.4em;direction:rtl;text-align:center;">
-                                        <span id="XMxy70O5f1UfcQP6"
-                                              style="color:#000000;font-weight:700;">תוכן לעסק</span><br></p></div>
-                        </div>
-                    </div>
-                    <div id="EdMEH5MSQE6Q0Zr6" style="z-index:34;">
-                        <div id="hsQG0IPCtnXbYp9T"
-                             style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                            <div id="ddlI6wwLBPFQzT2m"
-                                 style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-                                <p id="NQq4EYcjBzJ7k35b"
-                                   style="text-transform:none;color:#000000;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.3em;direction:rtl;margin-right:0em;text-align:center;">
-                                        <span id="XYMbspf66M5i6g4P"
-                                              style="color:#000000;">שני פוסטים לאינסטגרם</span><br></p></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="cbWDIr3Wgdb1AYGC" style="display:grid;position:relative;grid-area:9 / 6 / 10 / 7;">
-                    <div id="Ww9qJmueUEEFKVKv" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                        <div id="OUwxnxi0FoR8WY3y" style="z-index:11;">
-                            <div id="jCaN4TZZBjjiTRLK"
-                                 style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                <svg id="c0L7mnz8BtcNoxzt" viewBox="0 0 208.185 51.8217" preserveAspectRatio="none"
-                                     style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-                                    <g id="tT7decSHImsyWwBE" style="transform:scale(1, 1);">
-                                        <path id="XW9LVY91MBFisidc"
-                                              d="M208.18496963422862,0.0 L208.18496963422862,1.0 L208.18496963422862,50.82169796619605 L208.18496963422862,51.82169796619605 L207.18496963422862,51.82169796619605 L1.0,51.82169796619605 L0.0,51.82169796619605 L0.0,50.82169796619605 L0.0,1.0 L0.0,0.0 L1.0,0.0 L207.18496963422862,0.0 L208.18496963422862,0.0"
-                                              style="fill:#0f1819;opacity:1.0;"></path>
-                                    </g>
-                                </svg>
-                            </div>
-                        </div>
-                        <div id="aaWxk1I6yiUCjB0i" style="z-index:12;">
-                            <div id="Lgt1IFtZ5tn44IwG"
-                                 style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-                                <div id="mRvOAARPf2iDWath"
-                                     style="flex-direction:column;display:flex;width:100%;justify-content:flex-end;opacity:1.0;height:100%;">
-                                    <p id="XlhHmwnBs4w0cCd1"
-                                       style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.4em;direction:ltr;text-align:center;">
-                                        <a style="color:#ffffff;" id="If0QjU7VU1YoATzw" href="?packege=silver#contantform" class="btn-price">₪899</a>
-                                         <br></p></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    </center>
 </section>
 <script>!function () {
     "use strict";
@@ -1631,7 +1393,8 @@
         </div>
     </div>
 </template>
-<style>.videoSeek {
+<style>
+    .videoSeek {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1752,7 +1515,7 @@
 .videoSeekInput:active::-moz-range-thumb {
     transform: scale(1.25);
 }</style>
-<center id="contantform">
+<center id="contantform" style="margin-top: 30px">
     <form action="#" method="POST">
         <h2 style="color: black">Full Name:</h2>
         <input type="text" id="name" name="name" required><br><br>
